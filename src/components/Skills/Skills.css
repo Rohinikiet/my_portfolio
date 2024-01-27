@@ -1,0 +1,26 @@
+.skills-container {
+  background: url('https://tse1.explicit.bing.net/th?id=OIP.6oalPwIHHy8Nm_hgM4_AvgHaEV&pid=Api&P=0&h=220') center/cover; /* Replace 'path/to/your/background-image.jpg' with the actual path to your background image */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Adjust as needed */
+  color: #333; /* Adjust text color for better visibility */
+}
+
+
+.skills-heading {
+  color: #333;
+  text-align: center;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skill-item {
+  color: #333;
+  padding: 8px;
+  margin: 4px 0;
+  border-radius: 4px;
+}

@@ -1,0 +1,55 @@
+/* Project.css */
+#projects {
+  background-image: url('https://tse1.explicit.bing.net/th?id=OIP.6oalPwIHHy8Nm_hgM4_AvgHaEV&pid=Api&P=0&h=220'); /* Replace 'path/to/your/background-image.jpg' with the actual path to your background image */
+  background-size: cover; /* This property ensures that the background image covers the entire container */
+  background-position: center; /* This property centers the background image */
+  background-repeat: no-repeat; /* This property ensures that the background image is not repeated */
+  padding: 50px 0; /* Adjust the padding as needed to ensure your content is readable */
+}
+
+#projects-h2 {
+  color: #333;
+}
+
+.project-list {
+  text-align: center;
+  padding: 0;
+}
+
+.project-box {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin: 10px;
+}
+
+.project-box img {
+  max-width: 30%;
+  margin-right: 10px;
+}
+
+.project-box-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50px;
+  color: #fff; /* Set text color to white */
+}
+
+.project-box h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.project-box p {
+  margin: 10px 0;
+  text-align: left;
+}
+
+.project-box a {
+  text-decoration: none;
+  color: #0078d4;
+  text-align: right;
+  margin-top: auto;
+}

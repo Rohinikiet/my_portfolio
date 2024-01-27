@@ -1,0 +1,62 @@
+#contact {
+    background-color: #f8f9fa;
+    padding: 20px 40px;
+    text-align: center;
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.Ak4s4D0ZaF6V4l-3G-wt7wHaDn&pid=Api&P=0&h=220'); /* Replace with the path to your image */
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+  }
+  
+  h2 {
+    color: #333; /* Set your desired heading color */
+  }
+  
+  p {
+    color: #343a40; /* Set your desired paragraph text color */
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .contact-info {
+    flex: 1;
+  }
+  
+  .contact-item {
+    margin-bottom: 15px;
+  }
+  
+  .contact-item span {
+    margin-left: 8px;
+  }
+  
+  .social-links {
+    flex: 1;
+    margin-left: 20px; /* Add margin to separate contact info and social links */
+  }
+  
+  h3 {
+    color: #333; /* Set your desired heading color */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #007bff; /* Set your desired link color */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
