@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+#MY-PORTFOLIO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+![Header](https://github.com/Rohinikiet/my_portfolio/assets/96356862/7b757508-69c1-4936-9577-074872c5236f)
 
-In the project directory, you can run:
+This is a React component named `Header` that represents the header section of a website. It includes a profile photo, introductory text, and navigation buttons for different sections (About, Skills, Contact, Projects). The component also features social media links (LinkedIn, GitHub, YouTube) displayed in the footer. The `scrollToSection` function is used to smoothly scroll to the specified section when a navigation button is clicked. The component uses external CSS for styling and imports profile and logo images. The social media links open in new tabs.
 
-### `npm start`
+![About](https://github.com/Rohinikiet/my_portfolio/assets/96356862/2fc373a6-3959-47cc-8db9-1d7a985ac64a)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is a React component named `About` representing the "About Me" section of a website. It includes a heading, an image, and textual content describing the person. The content provides details about my academic background, specialization in Artificial Intelligence and Data Science, passion for technology, and involvement in personal projects and hackathons. The component uses an external CSS file for styling and imports an image for visual representation.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Projects](https://github.com/Rohinikiet/my_portfolio/assets/96356862/63d09f91-0772-439f-82c1-b8eeb87b3a03)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is a React component named `Projects` representing the "My Projects" section of a website. It includes a heading and a list of projects, each displayed as a box containing a title, description, project image, and a link to the project repository on GitHub. The component uses an external CSS file for styling and imports project images and their details from separate files. The list of projects is dynamically generated using the `map` function, making it easy to add or remove projects in the future. The project details, including title, description, link, and image, are stored in an array called `projects`.
 
-### `npm run build`
+![Skils and Contact](https://github.com/Rohinikiet/my_portfolio/assets/96356862/f45a4009-cdf3-463d-81a1-8c68b998fa48)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Skills Component:**
+The `Skills` component represents the "Skills" section of a website. It includes a heading, and a list of skills displayed as items with a progress bar indicating the skill level. The skills and their respective percentages are stored in an array (`skills`), and the component dynamically renders them using the `map` function. The progress bars are styled with CSS, and the width of each bar is determined by the skill percentage.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Contact Component:**
+The `Contact` component represents the "Contact Me" section of a website. It includes a heading, a brief message, and contact information displayed in two sections: "Contact Info" and "Social Media." The contact information includes email and phone details, and social media links are provided with FontAwesome icons. The component uses external CSS for styling and FontAwesome for rendering the icons. The social media links open in new tabs when clicked.
